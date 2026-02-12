@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cura - Healthcare Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">  
+        <header>
+            <h1>Cura</h1>
+            <p class="tagline">Your Healthcare Companion</p>
+        </header>
+        <div class="chat-container">
+            <div id="chatbox" class="chatbox"></div>
+            
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Describe your symptoms..." autocomplete="off">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+            <p class="disclaimer">Not a substitute for professional medical advice. Call 911 if it is an emergency.</p>  
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
