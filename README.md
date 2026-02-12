@@ -75,7 +75,7 @@ cura/
 └── templates/           # HTML templates
     └── index.html       # Main interface
 ⚠️ Disclaimer
-This tool is for informational purposes only and is not a substitute for professional medical advice.In emergencies, call your local emergency number immediately.
+This tool is for informational purposes only and is not a substitute for professional medical advice. In emergencies, call your local emergency number immediately.
 
 🔮 Roadmap
 Integrate LLM for more intelligent responses
